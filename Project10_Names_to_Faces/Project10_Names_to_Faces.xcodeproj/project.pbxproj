@@ -14,6 +14,7 @@
 		FB605EE12A61A0C000FC0F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB605EE02A61A0C000FC0F09 /* Assets.xcassets */; };
 		FB605EE42A61A0C000FC0F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB605EE22A61A0C000FC0F09 /* LaunchScreen.storyboard */; };
 		FB75AE012A6A6CB9003733A7 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75AE002A6A6CB9003733A7 /* PersonCell.swift */; };
+		FB75AE032A6AC73E003733A7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75AE022A6AC73E003733A7 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FB605EE32A61A0C000FC0F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB605EE52A61A0C000FC0F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB75AE002A6A6CB9003733A7 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		FB75AE022A6AC73E003733A7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				FB605ED92A61A0BE00FC0F09 /* SceneDelegate.swift */,
 				FB605EDB2A61A0BE00FC0F09 /* ViewController.swift */,
 				FB75AE002A6A6CB9003733A7 /* PersonCell.swift */,
+				FB75AE022A6AC73E003733A7 /* Person.swift */,
 				FB605EDD2A61A0BE00FC0F09 /* Main.storyboard */,
 				FB605EE02A61A0C000FC0F09 /* Assets.xcassets */,
 				FB605EE22A61A0C000FC0F09 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB75AE032A6AC73E003733A7 /* Person.swift in Sources */,
 				FB605EDC2A61A0BE00FC0F09 /* ViewController.swift in Sources */,
 				FB605ED82A61A0BE00FC0F09 /* AppDelegate.swift in Sources */,
 				FB75AE012A6A6CB9003733A7 /* PersonCell.swift in Sources */,
